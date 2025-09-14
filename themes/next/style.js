@@ -1,9 +1,3 @@
-/* eslint-disable react/no-unknown-property */
-/**
- * 此处样式只对当前主题生效
- * 此处不支持tailwindCSS的 @apply 语法
- * @returns
- */
 const Style = () => {
   return (
     <style jsx global>{`
@@ -27,6 +21,12 @@ const Style = () => {
       #theme-next .menu-link:hover {
         background-size: 100% 2px;
         color: #4e80ee;
+      }
+
+      /* 让中间正文区变宽 */
+      #theme-next #container-inner {
+        max-width: 1200px !important;
+        margin: 0 auto;
       }
     `}</style>
   )
