@@ -18,7 +18,7 @@ const CONFIG = {
   NEXT_POST_HEADER_IMAGE_VISIBLE: false, // 文章详情页是否显示封面图
 
   // 右侧组件
-  NEXT_RIGHT_BAR: true, // 是否显示右侧栏
+  NEXT_RIGHT_BAR: false, // 是否显示右侧栏
   NEXT_RIGHT_LATEST_POSTS: true, // 右侧栏最新文章
   NEXT_RIGHT_CATEGORY_LIST: true, // 右侧边栏文章分类列表
   NEXT_RIGHT_TAG_LIST: true, // 右侧边栏标签分类列表
@@ -26,8 +26,8 @@ const CONFIG = {
 
   // 菜单
   NEXT_MENU_HOME: true, // 显示首页
-  NEXT_MENU_CATEGORY: true, // 显示分类
-  NEXT_MENU_TAG: true, // 显示标签
+  NEXT_MENU_CATEGORY: false, // 显示分类
+  NEXT_MENU_TAG: false, // 显示标签
   NEXT_MENU_ARCHIVE: true, // 显示归档
   NEXT_MENU_SEARCH: true, // 显示搜索
 
