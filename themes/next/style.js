@@ -23,8 +23,10 @@ const Style = () => {
         color: #4e80ee;
       }
 
-      /* 让中间正文区变宽 */
-      #theme-next #container-inner {
+      /* 让正文区变宽 */
+      #theme-next #container-inner,
+      #theme-next #article-wrapper,
+      #theme-next #notion-article {
         max-width: 1200px !important;
         margin: 0 auto;
       }
