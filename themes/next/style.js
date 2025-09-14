@@ -27,7 +27,7 @@ const Style = () => {
       #theme-next #container-inner,
       #theme-next #article-wrapper,
       #theme-next #notion-article {
-        max-width: 1100px !important;
+        max-width: 1150px !important;
         margin: 0 auto;
       }
     `}</style>
