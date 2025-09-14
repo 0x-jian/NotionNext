@@ -30,7 +30,7 @@ const Style = () => {
 
       /* 内容区域加宽并居中 */
       .container {
-        max-width: 1200px;  /* 最大宽度，可以改成 1400px */
+        max-width: 1600px;  /* 最大宽度，可以改成 1400px */
         margin: 0 auto;     /* 水平居中 */
         padding: 20px;      /* 内边距 */
       }
